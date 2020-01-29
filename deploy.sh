@@ -15,6 +15,6 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com:moaalaa/VuePress-Simple-Docs.git master:gh-pages
+git push -f https://github.com/moaalaa/VuePress-Simple-Docs.git master:gh-pages
 
 cd -
