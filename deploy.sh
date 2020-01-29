@@ -1,13 +1,14 @@
 #!/usr/bin/env sh
+
 #File From Vuepress Official Site With Some Edits
 # abort on errors
 set -e
 
 # build
-npm run docs:build
+yarn docs:build
 
 # navigate into the build output directory
-cd docs/.vuepress/dist
+cd ./docs/.vuepress/dist
 
 git init
 git add -A
